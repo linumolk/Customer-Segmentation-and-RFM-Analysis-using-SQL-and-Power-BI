@@ -99,7 +99,7 @@ Key Visuals:
 
 ---
 
-##🚀 Conclusion
+## 🚀 Conclusion
 
 This project demonstrates how RFM analysis can effectively segment customers and provide valuable insights into 
 customer behavior, helping businesses optimize marketing strategies and improve revenue.
