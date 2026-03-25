@@ -6,10 +6,10 @@ The goal is to identify high-value customers, understand purchasing behavior, an
 ----
 
 ## 🎯 Objectives
-Segment customers based on purchasing behavior
-Identify high-value and at-risk customers
-Analyze revenue contribution across segments
-Support data-driven decision making
+* Segment customers based on purchasing behavior
+* Identify high-value and at-risk customers
+* Analyze revenue contribution across segments
+* Support data-driven decision making
 
 ---
 
@@ -100,5 +100,6 @@ Key Visuals:
 ---
 
 ##🚀 Conclusion
+
 This project demonstrates how RFM analysis can effectively segment customers and provide valuable insights into 
 customer behavior, helping businesses optimize marketing strategies and improve revenue.
