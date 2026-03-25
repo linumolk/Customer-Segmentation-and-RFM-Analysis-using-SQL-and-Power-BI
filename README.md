@@ -1,10 +1,9 @@
 # Customer-Segmentation-RFM-Analysis-using-SQL-and-Power-BI
---
 
 This project focuses on performing Customer Segmentation using RFM (Recency, Frequency, Monetary) Analysis on a retail dataset. 
 The goal is to identify high-value customers, understand purchasing behavior, and provide actionable business insights for targeted marketing strategies.
 
----
+
 
 ## 🎯 Objectives
 Segment customers based on purchasing behavior
