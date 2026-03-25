@@ -13,54 +13,54 @@ Support data-driven decision making
 
 ---
 
-🛠️ Tools & Technologies
-MySQL → Data cleaning, transformation, RFM calculation
-Power BI → Data visualization and dashboard creation
+## 🛠️ Tools & Technologies
+* MySQL → Data cleaning, transformation, RFM calculation
+* Power BI → Data visualization and dashboard creation
 
 ---
 
 ## 📂 Dataset
 Retail transactional dataset (~30K records)
 Contains:
-CustomerID
-InvoiceNo
-Quantity
-InvoiceDate
-UnitPrice
-Country
+1. CustomerID
+2. InvoiceNo
+3. Quantity
+4. InvoiceDate
+5. UnitPrice
+6. Country
 
 ---
 
 ## 🔄 Project Workflow
 
 1. Data Preparation (MySQL)
-Imported raw dataset
-Handled missing and blank values
-Removed duplicates
-Fixed inconsistencies (negative values, invalid entries)
-Standardized data types
+* Imported raw dataset
+* Handled missing and blank values
+* Removed duplicates
+* Fixed inconsistencies (negative values, invalid entries)
+* Standardized data types
 
 2. Feature Engineering
-Created Total_Price = Quantity × UnitPrice
-Prepared customer-level aggregation
+* Created Total_Price = Quantity × UnitPrice
+* Prepared customer-level aggregation
 
 3. RFM Calculation
-Recency → Days since last purchase
-Frequency → Number of transactions
-Monetary → Total spend
+* Recency → Days since last purchase
+* Frequency → Number of transactions
+* Monetary → Total spend
 
 4. RFM Scoring
-Applied NTILE(5) to assign scores (1–5)
-Generated RFM Score (combined)
+* Applied NTILE(5) to assign scores (1–5)
+* Generated RFM Score (combined)
 
 5. Customer Segmentation
 
 Customers were segmented into:
 
-🟢 Champions → High value, recent, frequent buyers
-🔵 Loyal Customers → Regular and consistent buyers
-🔴 At Risk → Inactive customers with declining engagement
-⚪ Low Value → Remaining customers
+* Champions → High value, recent, frequent buyers
+* Loyal Customers → Regular and consistent buyers
+* At Risk → Inactive customers with declining engagement
+* Low Value → Remaining customers
 
 ---
 
@@ -71,30 +71,30 @@ Customers were segmented into:
 
 Key Visuals:
 
-KPI Cards (Total Customers, Revenue, Avg Metrics)
-Customers by Segment
-Revenue by Segment
-Segment-wise Behavior Analysis
-RFM Distribution
-Top 10 Customers
-Customer vs Revenue Comparison (Combo Chart)
-Segment Filter (Slicer)
+1. KPI Cards (Total Customers, Revenue, Avg Metrics)
+2. Customers by Segment
+3. Revenue by Segment
+4. Segment-wise Behavior Analysis
+5. RFM Distribution
+7. Top 5 Customers
+8. Customer vs Revenue Comparison (Combo Chart)
+9. Segment Filter (Slicer)
 
 --- 
 
 ## 📈 Key Insights
-A small group of customers (Champions) contributes a significant portion of total revenue
-Loyal customers form a stable revenue base with consistent purchases
-A noticeable segment of customers is at risk, indicating retention opportunities
-Customer behavior varies significantly across segments, enabling targeted marketing strategies
+* A small group of customers (Champions) contributes a significant portion of total revenue
+* Loyal customers form a stable revenue base with consistent purchases
+* A noticeable segment of customers is at risk, indicating retention opportunities
+* Customer behavior varies significantly across segments, enabling targeted marketing strategies
 
 --- 
 
 ## 💡 Business Recommendations
-Focus marketing efforts on retaining Champions
-Upsell and cross-sell to Loyal customers
-Re-engage At Risk customers through targeted campaigns
-Personalize offers based on segment behavior
+* Focus marketing efforts on retaining Champions
+* Upsell and cross-sell to Loyal customers
+* Re-engage At Risk customers through targeted campaigns
+* Personalize offers based on segment behavior
 
 ---
 
